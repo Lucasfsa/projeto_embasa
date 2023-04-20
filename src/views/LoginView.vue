@@ -5,12 +5,12 @@
     <div>
         <div class="row justify-content-start">
 
-            <div class="col-12 logo1-size">
-                <img src="public\logo_embasa.png">
+            <div class="col-12 ">
+                <img class="logo1-size" src="public\logo_embasa.png">
             </div>
 
-            <div class="col-12 logo2-size">
-                <img src="public/logo_projeto.png">
+            <div class="col-12 ">
+                <img class="logo2-size" src="public/logo_projeto.png">
             </div>
         </div>
 
@@ -53,13 +53,13 @@
 </template>
 <style scoped>
 .logo1-size {
-    width: 198;
-    height: 95px;
+    width: 120px;
+    height: 60px;
 }
 
 .logo2-size {
-    width: 142px;
-    height: 77px;
+    width: 120px;
+    height: 60px;
 }
 
 .card{
