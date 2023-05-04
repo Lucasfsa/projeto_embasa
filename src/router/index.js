@@ -3,7 +3,7 @@ import Login from '../views/LoginView.vue'
 import Register from '../views/RegisterView.vue'
 import Recovery from '../views/RecoveryView.vue'
 import Password from '../views/SuccessPasswordView.vue'
-
+import Index from '../views/IndexView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,6 +35,11 @@ const router = createRouter({
       path: '/success-password',
       name: 'password',
       component: Password
+    },
+    {
+      path: '/index',
+      name: 'index',
+      component: Index
     }
   ]
 })
